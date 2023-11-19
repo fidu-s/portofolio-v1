@@ -104,3 +104,9 @@ button:hover{
 .icons ion-icon.three:hover{
     color: rgb(59,174,209);
 }
+@media only screen and (max-width: 767px) {
+    nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }

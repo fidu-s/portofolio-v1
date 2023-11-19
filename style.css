@@ -89,3 +89,16 @@ img{
     font-size: 18px;
     margin-bottom: 45px;
 }
+
+@media only screen and (max-width: 767px) {
+    img {
+      display: none; /* hide the image on smaller screens */
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
